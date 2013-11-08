@@ -17,7 +17,7 @@ m4_define([xfconf_version_major], [4])
 m4_define([xfconf_version_minor], [10])
 m4_define([xfconf_version_micro], [0])
 m4_define([xfconf_version_nano], [])
-m4_define([xfconf_version_build], [0a0d8be])
+m4_define([xfconf_version_build], [ad3f3e8])
 m4_define([xfconf_version_tag], [])
 m4_define([xfconf_version], [xfconf_version_major().xfconf_version_minor().xfconf_version_micro()ifelse(xfconf_version_nano(), [], [], [.xfconf_version_nano()])ifelse(xfconf_version_tag(), [git], [xfconf_version_tag()-xfconf_version_build()], [xfconf_version_tag()])])
 
